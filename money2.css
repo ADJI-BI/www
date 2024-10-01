@@ -1,0 +1,190 @@
+/* Général */
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color:rgb(21, 85, 112);
+    height: 100%; /* Assure que le corps prend toute la hauteur */
+}
+
+.navbar {
+    border-bottom: 1px solid #011b05;
+    background-color: #051101; /* Rose plus foncé */
+    z-index: 1000; /* Assure que la navbar est au-dessus de tout autre contenu */
+}
+
+.navbar-brand, .nav-link {
+    color: rgb(220, 81, 26)!important;
+    text-decoration: solid;
+    border-radius: 10px;
+    padding: 20px;
+    
+    
+}
+
+.nav-link:hover {
+    color: rgb(0, 21, 255) !important; /* Texte rose clair au survol */
+}
+ .nav-item {
+
+ }
+
+/* Section Accueil */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner {
+    background-image: url('votre\ satisfaction\ notre\ affaire.png3.png'
+    ); /* Assurez-vous que le chemin d'accès à l'image est correct */
+    background-size: cover;
+    background-position: center;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner-content {
+
+    text-align: right;
+    padding: 20px;
+    border-radius: 30px;
+    background-color ::backdrop;
+    width: 80%;
+    
+
+}
+
+h1 {
+    font-size: 5em; /* Ajusté pour une meilleure visibilité */
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    --gf-color-picker-menu-width: 252px;
+    
+}
+
+p {
+    font-size: 2em;
+    margin-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Section Services */
+#services .card {
+    border: none;
+    border-radius: 20px; /* Arrondi modéré */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgb(29, 199, 179) /* Rose clair pour les services */
+}
+
+#services .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Ombre plus prononcée au survol */
+}
+
+#services .card-img-top {
+    border-bottom: 1px solid #ddd;
+    border-radius: 20px 20px 0 0; /* Arrondi pour les images */
+}
+
+#services .card-body img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+/* Section Vente de Produits EDMARK */
+#products .card {
+    border: none;
+    border-radius: 20px; /* Arrondi modéré pour les produits */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: rgb(32, 48, 218); /* Rose plus foncé pour les produits */
+}
+
+#products .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Même effet d'ombre que pour les services */
+}
+
+#products .card-img-top {
+    border-bottom: 1px solid #ddd;
+    border-radius: 20px 20px 0 0;
+    background-image: url('votre\ satisfaction\ notre\ affaire.png');
+}
+
+#products .card-body img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 15px;
+    background-color: beige;
+}
+
+/* Section Contact */
+#contact {
+    background-color: #f0f8f8; /* Rose clair */
+    padding: 50px 0; /* Ajout de padding pour améliorer l'espacement */
+    color: #1c2fd7;
+}
+
+#contactForm .form-control {
+    border-radius: 8px;
+    padding: 15px;
+    background-color: rgb(179, 194, 194);
+}
+
+/* Footer */
+footer {
+    background-color: #ff6699; /* Rose plus foncé */
+    color:white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: small;
+}
+
+/* Animations */
+.card {
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Douce augmentation de l'ombre */
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .navbar {
+    background-color: #333;
+}
+
+.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #fff;
+}
+
+.dark-mode footer {
+    background-color: #000;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 50px;
+}
+
+.header-bar{
+    width: 100%;
+    background-color: #106fc2;
+}
